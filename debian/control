@@ -1,0 +1,22 @@
+Source: findutils
+Section: unknown
+Priority: optional
+Maintainer: Jackson Hansen <madjack971@bsdmail.com>
+Build-Depends: debhelper-compat (= 13), dh-autoreconf
+Standards-Version: 4.5.1
+Homepage: https://savannah.gnu.org/projects/findutils/
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/maddjack2020/findutils.git
+Vcs-Browser: https://github.com/maddjack2020/findutils
+
+Package: findutils
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: auto-generated package by debmake
+ The Findutils package contains programs to find files. Programs are provided
+ to search through all the files in a directory tree and to create, maintain,
+ and search a database (often faster than the recursive find, but unreliable
+ unless the database has been updated recently). Findutils also supplies the
+ xargs program, which can be used to run a specified command on each file
+ selected by a search.
